@@ -1,3 +1,4 @@
 # ignore all .log files 
 *.log
 *venv
+*.pt
