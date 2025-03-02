@@ -5,7 +5,7 @@ import math
 
 def main():
     # chosing the yolo model
-    model = YOLO('yolo_weights\\yolov8n.pt')
+    model = YOLO('yolo_weights\\yolov8l.pt')
 
     # getting the video from the webcam
     capture = cv2.VideoCapture('videos\\cars.mp4')
